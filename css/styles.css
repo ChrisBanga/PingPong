@@ -4,5 +4,50 @@
   width: 100%;
   height: 1500px;
   margin: auto;
+}
+.centered-header{
+  margin: 0 auto;
+  width:100 px;
+  height: 100px;
 
+}
+.header{
+  text-align: center;
+  font-size: 100px;
+  border-style: solid;
+  border-width: 10px;
+}
+
+#menuTab{
+  overflow: hidden;
+  background-color: #333;
+  margin-top: 40px;
+}
+#menuTab a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#menuTab a:hover{
+  background-color: white;
+  color: black;
+}
+#menuTab a.active{
+  background-color: #559f84;
+  color: white;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.content{
+  padding: 16px;
+}
+.sticky + .content{
+  padding-top:60px;
 }
