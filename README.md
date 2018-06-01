@@ -8,4 +8,8 @@ for all multiple of 5, "PingPong" for numbers that are both multiples of 3 and 5
 Player input: 5
 Game output: 1,2,Ping,4,Pong,Ping,7,8,Ping,Pong,11,Ping,13,14,PingPong
 
+## Technologies used:
+This project was built using JavaScript, Html and CSS.
+
 ## Setup Instructions:
+Click on the following [link](https://chrisbanga.github.io/PingPong/)
