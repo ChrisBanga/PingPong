@@ -34,3 +34,16 @@ function pingPong (number){
   }
 return answer;
 }
+
+//user interface
+$(document).ready(function(){
+  $("form#tofill").submit(function(event){
+    event.preventDefault();
+    $("ul#results").empty();
+    var inputNumber = $("input#data").val();
+    var numbers = pingPong(inputNumber);
+    numbers.forEach(function(number){
+      $("ul#results").append("<ul>" + number + "</ul>");
+    });
+  });
+});
